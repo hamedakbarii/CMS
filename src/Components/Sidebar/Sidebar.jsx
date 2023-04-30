@@ -46,12 +46,11 @@ export default function Sidebar() {
               Users
             </li>
           </Link>
-          <Link to="/newusers" className="w-full">
-            <li className="flex justify-start items-center gap-2 p-2 hover:bg-gray-200 transition-all">
-              <PermIdentity />
-              New User
-            </li>
-          </Link>
+
+          <li className="flex justify-start items-center gap-2 p-2 hover:bg-gray-200 transition-all w-full">
+            <PermIdentity />
+            New User
+          </li>
 
           <Link to="/products" className="w-full">
             <li className="flex justify-start items-center gap-2 p-2 hover:bg-gray-200 transition-all">
